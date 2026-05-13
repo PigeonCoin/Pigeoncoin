@@ -350,6 +350,7 @@ public:
         vSeeds.emplace_back("159.89.177.213", true);
         vSeeds.emplace_back("138.68.75.8", true);
         vSeeds.emplace_back("47.151.7.226", true);
+		vSeeds.emplace_back("pgn.ccnodes.net", true);
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,55);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,122);
